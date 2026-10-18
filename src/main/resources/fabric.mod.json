@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cavemapplus",
+  "version": "${version}",
+  "name": "CaveMapPlus",
+  "description": "Asynchronous surface & cave slice world mapper and high-precision structure locator for Minecraft 1.21.11.",
+  "authors": [
+    "CaveMapPlusDev"
+  ],
+  "contact": {
+    "sources": "https://github.com/example/cavemapplus"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.cavemapplus.CaveMapClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
